@@ -29,15 +29,15 @@ const content = [
 
 const Details = () => {
   return (
-    <div className="h-auto drop-shadow-2xl">
-      <div className="flex flex-col items-start justify-between gap-5 py-[1rem] h-auto px-[1rem] ">
+    <div className="h-auto w-auto  border-2  bg-gray-100">
+      <div className="flex flex-col items-start justify-start gap-5 py-[1rem] h-auto mr-[5rem] ">
         {content.map((e) => (
-          <div className="flex flex-row justify-evenly items-center ">
-            <div className="text-red-500  ">{<e.image className="h-[4rem] w-[10rem]" />}</div>
-            <div>
+          <div className="flex flex-row justify-start items-start  ">
+            <div className="text-red-500 p-[1rem] ">{<e.image className="h-[4rem] w-[10rem]" />}</div>
+            <div className="p-[0.3rem]">
               <h1 className="font-bold font-serif text-2xl text-black">
                 {e.title1} <br />
-                <span className="text-gray-500 text-[1rem] font-serif font-semibold ">{e.title2}</span>
+                <span className="text-gray-500 text-[0.9rem] font-serif font-semibold  ">{e.title2}</span>
               </h1>
             </div>
           </div>
