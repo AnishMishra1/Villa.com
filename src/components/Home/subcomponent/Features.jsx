@@ -5,7 +5,7 @@ import Details from './description/Details'
 
 const Features = () => {
   return (
-    <div className=' h-auto flex flex-col md:flex-row justify-between items-center p-[5rem]  '>
+    <div className=' h-auto flex flex-col lg:flex-row justify-between items-center lg:p-[5rem] p-[3rem] gap-10 '>
      <Photo/>
      <Describe/>
      <Details/>
